@@ -1,0 +1,124 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~mdbootstrap/scss/mdb';
+
+html, body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+input[type=checkbox] {
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+}
+
+.img-fluid {
+  object-fit: cover;
+  border-radius: 0;
+}
+
+a {
+  color: #17a2b8;
+}
+
+a:hover, a:focus {
+  color: #117a8b;
+}
+
+.btn {
+  text-transform: none;
+}
+
+.card-header {
+  border-color: #4285f4;
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.card-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-header a:hover, .card-header a:focus {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+
+a.btn {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.btn:hover, a.btn:focus {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1280px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.card-body img {
+  max-width: 100%;
+}
+
+.card-body figure {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body.img-hidden img {
+  display: none;
+}
+
+.card-body figcaption {
+  text-align: center;
+}
+
+.ck-content a {
+  color: #2bbbad;
+}
+
+.ck-content {
+  min-height: 50vh;
+}
+
+@media (max-width: 359.98px) {
+  body {    font-size: 0.85rem  }
+  .h1, h1 {    font-size: 2rem  }
+  .h2, h2 {    font-size: 1.75rem  }
+  .h3, h3 {    font-size: 1.5rem  }
+  .h4, h4 {    font-size: 1.25rem  }
+  .h5, h5 {    font-size: 1rem  }
+  .h6, h6 {    font-size: 0.85rem  }
+}
+
+@media (max-width: 575.98px) {
+  body {    font-size: 0.95rem  }
+  .h1, h1 {    font-size: 2.2rem  }
+  .h2, h2 {    font-size: 1.8rem  }
+  .h3, h3 {    font-size: 1.6rem  }
+  .h4, h4 {    font-size: 1.35rem  }
+  .h5, h5 {    font-size: 1.15rem  }
+  .h6, h6 {    font-size: 0.95rem  }
+}
+
